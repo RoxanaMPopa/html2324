@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CSS Grid Site</title>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aplicatie</title>
+<meta name="description" content="Aplicatie curs 3">
+<meta name="keywords" content=" curs3, proiect">
+<meta name="author" content="Popa Roxana">
+
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/css/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/css/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/css/images/favicon-16x16.png">
+<link rel="manifest" href="./assets/css/images/site.webmanifest">
+<link rel="mask-icon" href="./assets/css/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<style>
+    table, td{
+        border: 2px;color: blueviolet;
+        padding: 10px;
+    }
+    tr :nth-child(2n){
+        background-color: burlywood;
+    }
+    tr :nth-child(2n+1){
+        background-color: aqua;
+    }
+   </style>
+<body>
+    <!-- Header Showcase -->
+    <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div class="content-wrap">
+        </div>
+    </header>
+   <nav>
+    <ul>
+        <li><a href="acasa.html">Acasa</a></li>
+        <li><a href="portofoliu.html">Portofoliu</a></li>
+        <li class="active"><a href="blog.html">Blog</a></li>
+        <li><a href="">Despre noi</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+   </nav>
+    <!-- Main Area -->
+    <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+        </section>
+        <h1> Tabel persoane</h1>
+        <table>
+            <tr>
+                <th>Nr.crt.</th>
+                <th>Nume</th>
+                <th>Prenume</th>
+                <th>Cnp</th>
+                <th>Telefon</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Popescu</td>
+                <td>Ion</td>
+                <td>1745222222147</td>
+                <td>0732566888</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alexe</td>
+                <td>Petre</td>
+                <td>1920514777775</td>
+                <td>0725666741</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Atomei</td>
+                <td>Lorel</td>
+                <td>1852222555556</td>
+                <td>0756888965</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Banciu</td>
+                <td>Nicoleta</td>
+                <td>1902563444447</td>
+                <td>0741255789</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Avram</td>
+                <td>Daniela</td>
+                <td>2851475555514</td>
+                <td>0725444321</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Balan</td>
+                <td>Paul</td>
+                <td>2681235472222</td>
+                <td>0741258963</td>
+            </tr>
+        </table>
+    
+        <!-- Section B -->
+        <section id="section-b" class="grid">
+            <ul>
+                <li>
+                </li>
+                <li>
+                </li>
+                <li>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section C -->
+        <section id="section-c" class="grid">
+        </section>
+
+        <!-- Section D -->
+        <section id="section-d" class="grid">
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+        <div>My Project</div>
+        <div>Project By <a href="" target="_blank">LinkAcademy</a></div>
+    </footer>
+</body>
+
+</html>
